@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9236D54310A8A7977A0772C0 /* Pods_formatterkitSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97EE4AA13103227CAC7B157 /* Pods_formatterkitSampleApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C88394B31B934E9D00295759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88394B21B934E9D00295759 /* AppDelegate.swift */; };
 		C88394B51B934E9D00295759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88394B41B934E9D00295759 /* ViewController.swift */; };
 		C88394B81B934E9D00295759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88394B61B934E9D00295759 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A541BA432B46B3DBA97E5D13 /* Pods-formatterkitSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-formatterkitSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-formatterkitSampleApp/Pods-formatterkitSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A97EE4AA13103227CAC7B157 /* Pods_formatterkitSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_formatterkitSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88394AF1B934E9D00295759 /* formatterkitSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = formatterkitSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88394B21B934E9D00295759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C88394B41B934E9D00295759 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,8 @@
 		C88394B91B934E9D00295759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C88394BC1B934E9D00295759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C88394BE1B934E9D00295759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88394C41B93505A00295759 /* formatterkitSampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "formatterkitSampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		CAAB5B3C164AD4D999CB3E2D /* Pods-formatterkitSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-formatterkitSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-formatterkitSampleApp/Pods-formatterkitSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9236D54310A8A7977A0772C0 /* Pods_formatterkitSampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,8 @@
 			children = (
 				C88394B11B934E9D00295759 /* formatterkitSampleApp */,
 				C88394B01B934E9D00295759 /* Products */,
+				F83F5A66662B4AE0AF50B961 /* Pods */,
+				E8463CEC53450BE607AA8F5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +68,26 @@
 				C88394B91B934E9D00295759 /* Assets.xcassets */,
 				C88394BB1B934E9D00295759 /* LaunchScreen.storyboard */,
 				C88394BE1B934E9D00295759 /* Info.plist */,
+				C88394C41B93505A00295759 /* formatterkitSampleApp-Bridging-Header.h */,
 			);
 			path = formatterkitSampleApp;
+			sourceTree = "<group>";
+		};
+		E8463CEC53450BE607AA8F5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A97EE4AA13103227CAC7B157 /* Pods_formatterkitSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F83F5A66662B4AE0AF50B961 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A541BA432B46B3DBA97E5D13 /* Pods-formatterkitSampleApp.debug.xcconfig */,
+				CAAB5B3C164AD4D999CB3E2D /* Pods-formatterkitSampleApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +97,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C88394C11B934E9D00295759 /* Build configuration list for PBXNativeTarget "formatterkitSampleApp" */;
 			buildPhases = (
+				113E5C0B9F252477F8968D16 /* Check Pods Manifest.lock */,
 				C88394AB1B934E9D00295759 /* Sources */,
 				C88394AC1B934E9D00295759 /* Frameworks */,
 				C88394AD1B934E9D00295759 /* Resources */,
+				7DC56D55E85E6362EF7C4A09 /* Embed Pods Frameworks */,
+				8AB2CE551E50BBDD5EF913CE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -90,6 +119,7 @@
 		C88394A71B934E9D00295759 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = kwkhaw;
 				TargetAttributes = {
@@ -128,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		113E5C0B9F252477F8968D16 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DC56D55E85E6362EF7C4A09 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-formatterkitSampleApp/Pods-formatterkitSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB2CE551E50BBDD5EF913CE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-formatterkitSampleApp/Pods-formatterkitSampleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C88394AB1B934E9D00295759 /* Sources */ = {
@@ -244,23 +322,30 @@
 		};
 		C88394C21B934E9D00295759 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A541BA432B46B3DBA97E5D13 /* Pods-formatterkitSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = formatterkitSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.formatterkitSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "formatterkitSampleApp/formatterkitSampleApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C88394C31B934E9D00295759 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAAB5B3C164AD4D999CB3E2D /* Pods-formatterkitSampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = formatterkitSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.formatterkitSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "formatterkitSampleApp/formatterkitSampleApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -283,6 +368,7 @@
 				C88394C31B934E9D00295759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

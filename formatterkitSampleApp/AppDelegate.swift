@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  formatterkitSampleApp
-//
-//  Created by kw on 30/8/15.
-//  Copyright © 2015 kwkhaw. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
